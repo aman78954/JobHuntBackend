@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: ["https://job-hunt-backend-seven.vercel.app/"],
+  origin: ["https://job-hunt-backend-seven.vercel.app"],
   credentials: true,
 };
 
